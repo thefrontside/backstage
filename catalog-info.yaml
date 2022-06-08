@@ -4,7 +4,6 @@ kind: Component
 metadata:
   name: backstage
   description: Frontside's Backstage Developer Portal
-  # Example for optional annotations
   annotations:
     github.com/project-slug: thefrontside/backstage
     "humanitec.com/orgId": "the-frontside-software-inc"
@@ -12,5 +11,5 @@ metadata:
     # backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: engineering@frontside.com
+  owner: thefrontside/staff
   lifecycle: production

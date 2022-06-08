@@ -1893,6 +1893,26 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-github-actions@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-github-actions/-/plugin-github-actions-0.5.5.tgz#53b17bd6555140a4861106567f05ca72d283f267"
+  integrity sha512-Ft1G8RT4A0owBS5a3fv8yYB9KA8wHDVZmTzCROgtQwJmy3tl2VFC3C52X+Y395M+CigtD/dLFX75WgFGGkFJKQ==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.2"
+    "@backstage/core-components" "^0.9.4"
+    "@backstage/core-plugin-api" "^1.0.2"
+    "@backstage/integration" "^1.2.0"
+    "@backstage/plugin-catalog-react" "^1.1.0"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    "@octokit/rest" "^18.5.3"
+    luxon "^2.0.2"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-org@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.5.4.tgz#aeb574b2478f0580c0e24e5daab3978ca84c2cac"

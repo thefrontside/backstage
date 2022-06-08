@@ -1,4 +1,8 @@
+app:
+  baseUrl: https://backstage.frontside.services
+
 backend:
+  baseUrl: https://backstage.frontside.services
   database:
     client: pg
     connection:
@@ -12,3 +16,11 @@ integrations:
     - host: github.com
       apps:
         - $include: credentials/backstage-app-credentials.yaml
+
+auth:
+  environment: production
+  providers:
+    github:
+      production:
+        clientId: ${AUTH_GITHUB_CLIENT_ID}
+        clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
