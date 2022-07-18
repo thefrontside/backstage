@@ -1,0 +1,9 @@
+directive @field(at: String!) on FIELD_DEFINITION
+directive @relation(type: String, kind: String) on FIELD_DEFINITION
+directive @extend(type: String!) on OBJECT | INTERFACE
+
+interface Node { id: ID! }
+
+type Query {
+  node(id: ID!): Node
+}
